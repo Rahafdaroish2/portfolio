@@ -1,0 +1,4 @@
+import Icon from '../components/ui/Icon'
+import SectionHeading from '../components/ui/SectionHeading'
+const services=[['monitor','Web Development','Building responsive websites that work smoothly across desktop, tablet, and mobile.'],['code','Frontend Development','Creating clean, accessible user interfaces with thoughtful visual details.'],['layers','Full-Stack Development','Connecting frontend experiences with backend services and databases.']]
+export default function Services(){return <section id="services" className="section services"><div className="container"><div className="section-top"><SectionHeading eyebrow="Services" title="What I Do"/><a className="text-link" href="#contact">Let’s Work Together →</a></div><div className="services-grid">{services.map(([icon,title,text])=><article key={title}><span className="round-icon" aria-hidden="true"><Icon name={icon}/></span><div><h3>{title}</h3><p>{text}</p></div></article>)}</div></div></section>}

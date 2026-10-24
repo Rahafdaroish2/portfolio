@@ -1,0 +1,1 @@
+export default function Botanical(){return <svg className="botanical" viewBox="0 0 100 180" fill="none" aria-hidden="true"><path d="M45 178Q60 95 35 10M51 135Q12 119 13 81Q43 88 51 135ZM51 110Q86 82 79 54Q57 68 51 110ZM45 78Q17 60 23 30Q43 44 45 78ZM53 148Q90 128 94 98Q66 108 53 148Z" stroke="currentColor" strokeWidth="1"/></svg>}

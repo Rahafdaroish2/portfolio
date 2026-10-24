@@ -1,0 +1,10 @@
+import BackToTop from './components/layout/BackToTop'
+import Navbar from './components/layout/Navbar'
+import Hero from './sections/Hero'
+import About from './sections/About'
+import Projects from './sections/Projects'
+import Skills from './sections/Skills'
+import Services from './sections/Services'
+import Education from './sections/Education'
+import Contact from './sections/Contact'
+export default function App(){return <><a className="skip-link" href="#main">Skip to content</a><Navbar/><main id="main"><Hero/><About/><Projects/><Skills/><Services/><Education/><Contact/></main><footer className="container footer"><a href="#home">RA <span>Rahaf Al_daroish</span></a><p>© {new Date().getFullYear()} · Designed with care.</p></footer><BackToTop/></>}
